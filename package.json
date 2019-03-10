@@ -1,0 +1,33 @@
+{
+  "name": "hitbox",
+  "version": "0.0.1",
+  "description": "Hitbox helper",
+  "main": "lib/triangle.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feirell/hitbox.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "hitbox",
+    "triangle"
+  ],
+  "author": "Florian Völker <Neirolf2030@web.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Feirell/hitbox/issues"
+  },
+  "homepage": "https://github.com/Feirell/hitbox#readme"
+}
