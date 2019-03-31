@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const filePath = './package.json';
-const encooding = 'utf8';
+const encoding = 'utf8';
 
 const fc = fs.readFileSync(filePath, encoding);
 const currentPackageDefinition = JSON.parse(fc);
