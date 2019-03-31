@@ -8,7 +8,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: II/2fNshk4IVR+4liSzkNgTdpdqMwMOTYfymMyleTQtU/yqsmgp0vVGbxvrCyaZ2Am8VMwLrtVz102ZZd4bAg27Y1tu5v8j/ZhPVIYUkQ8uZH0J91QmFh1gXM/jQ9hWyPrrcsdrqz0nrxJfqNDt6lybRTyNHGrkAmW4tivUbut6j32ysSnefRk0rPBgXKOSH5cY8MSvbO5SJbKX7siwYZfaeQOf8u3qELQmETK6FpUxad2O3AHRf65lQ/8tt80t9+GC2x/IZBAY9FfRsPgcTxh59jaSDh8YAp7fhPNv72/CXdSYC+IPX0in1YzXGbh+waR+mb1XITtCvFfMVk6hoGMVcrBgF3HVXfWexH97Yu3tt9IFL63jgxClmoWc0v4PSZcBNxEi9j9eI5l0YEfkDGQIbjTfVNUOLH34OT4zB2CxjWawf97Yql1PjUPH1pLsc++WVUX0Io4Jlgvfv/65Bm5eRDQ6erZOAV46iG2AH7WUzUowpUQ4z+yW5sZy5B8BFvFpn48PB+7T+RZV/DNSvWlqiBpD6CA0aN3Jr3zDAtnnoNkMI5ydHDyNAty5WpvY5FfESV9UOzuATL7/xQtIxYAW0Q5QRWqGSot6mqR3BG3DGXf3ORFVcVu332EoUCGqzvyZ8OE484YfUFqn4FUDH85XieM0t4/HWCyU5GA2Ktpk=
+    secure: github-deploy-key
   file_glob: true
   file: hitbox-*.tgz
   skip_cleanup: true
