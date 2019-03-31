@@ -4,6 +4,7 @@ node_js:
 script:
 - node update-package-version.js
 - npm run build
+- npm pack
 deploy:
   provider: releases
   api_key:
